@@ -8,7 +8,10 @@ public class Demo {
     }
   }
 public static void main(String[] args) {
-   int a = Integer.parseInt(args[0]);
+   int a = 5;
+   if(args.length != 0){
+     a = Integer.parseInt(args[0]);
+   }
    printLoop(a);
   }
 }
